@@ -83,7 +83,7 @@
                 <div class="blog-details-author">
 
                     <div class="blog-details-author-thumb">
-                        <img src="{{ asset($post->user->profile->avatar) }}" alt="Author">
+                        <img src="{{ asset($post->user->profile->avatar) }}" alt="Author" style="max-height: 100px">
                     </div>
 
                     <div class="blog-details-author-content">
